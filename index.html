@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="https://png.pngtree.com/png-clipart/20190630/original/pngtree-css-file-document-icon-png-image_4177015.jpg" type="image/png">
+        <title>CSS Display Intro</title>
+
+        <style>
+
+            body {
+                display: flex;
+                height: 100vh;
+                margin: 0;
+                overflow: hidden;
+                background-color: whitesmoke;
+                padding-top: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            .left, .right {
+                flex: 1;
+                overflow: auto;
+            }
+            
+            .left {
+                background-color: whitesmoke;
+            }
+            
+            .right {
+                background-color: whitesmoke;
+            }
+
+        </style>
+        
+    </head>
+
+    <body>
+
+        <div class="left">
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px"> P + Arial + Font Style Italic </p>
+                <p style="font-family: Arial; font-size: 25px; font-style: italic;">Hello Beautiful World</p>
+                <p style="font-family: Arial; font-size: 15px"> P + Arial + Font Weight Bold</p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold;">Hello Beautiful World</p>
+                <p style="font-family: Arial; font-size: 15px"> P + Arial </p>
+                <p style="font-family: Arial; font-size: 25px;">Hello Beautiful World</p>
+                <p style="font-family: Arial; font-size: 15px">P + Arial + Font Weight Bold + Span Color Gray Font Style Italic + P</p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold;"> Hello <span style="color:gray; font-style: italic;"> Beautiful </span> World </p>         
+            </div>
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px">P + Span + P + Display Inline</p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold; display: inline; background-color: violet;">Hello</p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold; display: inline;"><span style="background-color: rgb(152, 81, 219);  font-style: italic;">Beautiful</span></p>  
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold; display: inline; background-color: violet;">World</p>
+            </div>
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px"> P + Display Inline <p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold; display: inline; background-color: violet;"> Hello Beautiful World </p>  
+            </div>
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px"> P + Span + Display Inline </p>
+                <p style="font-family: Arial; font-size: 25px; font-weight: bold; display: inline; background-color: violet;"> Hello <span style="background-color: rgb(152, 81, 219);  font-style: italic;"> Beautiful </span> World </p>  
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px">Display Inline</p>                
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: inline; background-color: violet;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: inline; background-color: rgb(152, 81, 219); ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div>
+                <p style="font-family: Arial; font-size: 15px">Display Inline-Block</p>
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: inline-block; background-color: rgb(152, 81, 219); width: 300px; height: 100px; padding: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: inline-block; background-color: violet; width: 300px; height: 100px; padding: 5px;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            
+            <div>
+                <p style="font-family: Arial; font-size: 15px">Display Block</p>
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: block; background-color: violet;  width: 300px; height: 100px; padding: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p style="font-family: Arial; font-size: 15px; font-weight: bold; display: block; background-color: rgb(152, 81, 219);  width: 300px; height: 100px; padding: 5px;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
